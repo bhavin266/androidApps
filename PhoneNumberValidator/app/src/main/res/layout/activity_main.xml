@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.cs478.project.phonenumbervalidator.MainActivity">
+    tools:context="com.cs478.project.phonenumbervalidator.MainActivity"
+    android:gravity="fill_horizontal|start|end">
 
     <LinearLayout
         android:orientation="vertical"
@@ -43,7 +44,13 @@
             android:layout_height="wrap_content"
             android:text="Browser"
             android:id="@+id/browserButton"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom|right" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView" />
 
     </LinearLayout>
 </RelativeLayout>

@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -25,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button browserButton = (Button) findViewById(R.id.browserButton);
         Button validatorButton = (Button) findViewById(R.id.validatorButton);
-
+                ListView lit=(ListView) findViewById(R.id.listView);
+        lit.getOnItemSelectedListener();
         browserButton.setOnClickListener(
                 new View.OnClickListener() {
                     @Override

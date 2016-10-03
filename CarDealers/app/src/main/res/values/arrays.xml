@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <integer-array name="thumbnails">
+        <item>@drawable/audi_a3_thumb</item>
+        <item>@drawable/audi_r8_thumb</item>
+        <item>@drawable/bmw_i8_thumb</item>
+        <item>@drawable/ford_mustang_thumb</item>
+        <item>@drawable/honda_civic_thumb</item>
+        <item>@drawable/honda_crv_thumb</item>
+        <item>@drawable/toyota_rav4_thumb</item>
+        <item>@drawable/merc_c_thumb</item>
+    </integer-array>
+
+    <string-array name="cars">
+        <item>Audi</item>
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Honda</item>
+        <item>Toyota</item>
+        <item>Mercedes</item>
+    </string-array>
+
+    <string-array name="webLinksArray" formatted="false">
+        <item>https://www.audiusa.com</item>
+        <item>https://www.audiusa.com</item>
+        <item>https://www.bmw.com</item>
+        <item>https://www.ford.com</item>
+        <item>https://shop.honda.com</item>
+        <item>https://shop.honda.com</item>
+        <item>https://www.toyota.com</item>
+        <item>https://www.mbusa.com</item>
+    </string-array>
+
+    <string-array name="songsWikiArray" formatted="false">
+        <item>https://en.wikipedia.org/wiki/Another_Brick_in_the_Wall</item>
+        <item>https://en.wikipedia.org/wiki/Forbidden_Voices_%28song%29</item>
+        <item>https://en.wikipedia.org/wiki/Nothing_Else_Matters</item>
+        <item>https://en.wikipedia.org/wiki/Piya_Basanti</item>
+        <item>https://en.wikipedia.org/wiki/Pop_Culture_%28song%29</item>
+        <item>https://en.wikipedia.org/wiki/Vertigo_%28U2_song%29</item>
+        <item>https://en.wikipedia.org/wiki/Wind_of_Change_%28Scorpions_song%29</item>
+        <item>https://en.wikipedia.org/wiki/We_Are_Young</item>
+    </string-array>
+
+    <string-array name="artistWikiArray" formatted="false">
+        <item>https://en.wikipedia.org/wiki/Pink_Floyd</item>
+        <item>https://en.wikipedia.org/wiki/Martin_Garrix</item>
+        <item>https://en.wikipedia.org/wiki/Metallica</item>
+        <item>https://en.wikipedia.org/wiki/Sultan_Khan_%28musician%29</item>
+        <item>https://en.wikipedia.org/wiki/Madeon</item>
+        <item>https://en.wikipedia.org/wiki/U2</item>
+        <item>https://en.wikipedia.org/wiki/Scorpions_%28band%29</item>
+        <item>https://en.wikipedia.org/wiki/Fun_%28band%29</item>
+    </string-array>
+
+</resources>
