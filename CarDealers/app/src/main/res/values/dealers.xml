@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audi" formatted="false">
+        <item>Fletcher Jones Audi\n1111 N Clark St, Chicago, IL 60610</item>
+        <item>Audi Morton Grove\n7000 Golf Rd, Morton Grove, IL 60025</item>
+        <item>Greater Chicago Motors\n1850 N Elston Ave, Chicago, IL 60642</item>
+    </string-array>
+
+    <string-array name="bmw" formatted="false">
+        <item>Perillo BMW\n1035 N Clark St, Chicago, IL</item>
+        <item>Fields BMW\n700 W Frontage Rd Northfield, IL</item>
+        <item>Elmhurst BMW\n466 W Lake St Elmhurst, IL</item>
+    </string-array>
+
+    <string-array name="honda" formatted="false">
+        <item>Fletcher Jones Honda\n1110 N Clark St, Chicago, IL 60610</item>
+        <item>Honda City Chicago\n4950 S Pulaski Rd, Chicago, IL 60632</item>
+        <item>McGrath City Honda\n6720 W Grand Ave, Chicago, IL 60707</item>
+    </string-array>
+
+    <string-array name="ford" formatted="false">
+        <item>Fox Ford Lincoln\n2501 N Elston Ave, Chicago, IL 60647</item>
+        <item>Metro Ford\n6455 S Western Ave, Chicago, IL 60636</item>
+        <item>Al Piemonte Ford\n2500 W North Ave, Melrose Park, IL 60160</item>
+    </string-array>
+
+    <string-array name="tesla" formatted="false">
+        <item>Tesla Chicago-West Grand Avenue\n1053 W. Grand Avenue, Chicago, IL 60642</item>
+        <item>Tesla Skokie-Old Orchard Mall\n4999 Old Orchard Center Suite N9, Skokie, IL 60077</item>
+        <item>Tesla Oak Brook\n58 Oakbrook Center, Oak Brook, IL 60523</item>
+    </string-array>
+
+
+    <string-array name="toyota" formatted="false">
+        <item>Grossinger City Toyota\n1561 N Fremont St, Chicago, IL 60642</item>
+        <item>Midtown Toyota\n2700 N Cicero Ave, Chicago, IL 60639</item>
+        <item>Toyota On Western\n6941 S Western Ave, Chicago, IL 60636</item>
+    </string-array>
+
+    <string-array name="merc" formatted="false">
+        <item>Mercedes-Benz of Chicago\n1520 W North Ave, Chicago, IL 60642</item>
+        <item>Loeber Motors\n4255 W Touhy Ave, Lincolnwood, IL 60712</item>
+        <item>Mercedes-Benz of Westmont\n200 E Ogden Ave, Westmont, IL 60559</item>
+    </string-array>
+</resources>

@@ -3,6 +3,7 @@
 <resources>
     <integer-array name="thumbnails">
         <item>@drawable/audi_a3_thumb</item>
+        <item>@drawable/tesla_s_thumb</item>
         <item>@drawable/audi_r8_thumb</item>
         <item>@drawable/bmw_i8_thumb</item>
         <item>@drawable/ford_mustang_thumb</item>
@@ -12,8 +13,22 @@
         <item>@drawable/merc_c_thumb</item>
     </integer-array>
 
+    <integer-array name="images">
+        <item>@drawable/audi_a3</item>
+        <item>@drawable/tesla_s</item>
+        <item>@drawable/audi_r8</item>
+        <item>@drawable/bmw_i8</item>
+        <item>@drawable/ford_mustang</item>
+        <item>@drawable/honda_civic</item>
+        <item>@drawable/honda_crv</item>
+        <item>@drawable/toyota_rav4</item>
+        <item>@drawable/merc_c</item>
+    </integer-array>
+
+
     <string-array name="cars">
         <item>Audi</item>
+        <item>Tesla</item>
         <item>Audi</item>
         <item>BMW</item>
         <item>Ford</item>
@@ -25,8 +40,9 @@
 
     <string-array name="webLinksArray" formatted="false">
         <item>https://www.audiusa.com</item>
+        <item>https://www.tesla.com</item>
         <item>https://www.audiusa.com</item>
-        <item>https://www.bmw.com</item>
+        <item>http://www.bmw.com</item>
         <item>https://www.ford.com</item>
         <item>https://shop.honda.com</item>
         <item>https://shop.honda.com</item>
@@ -34,26 +50,17 @@
         <item>https://www.mbusa.com</item>
     </string-array>
 
-    <string-array name="songsWikiArray" formatted="false">
-        <item>https://en.wikipedia.org/wiki/Another_Brick_in_the_Wall</item>
-        <item>https://en.wikipedia.org/wiki/Forbidden_Voices_%28song%29</item>
-        <item>https://en.wikipedia.org/wiki/Nothing_Else_Matters</item>
-        <item>https://en.wikipedia.org/wiki/Piya_Basanti</item>
-        <item>https://en.wikipedia.org/wiki/Pop_Culture_%28song%29</item>
-        <item>https://en.wikipedia.org/wiki/Vertigo_%28U2_song%29</item>
-        <item>https://en.wikipedia.org/wiki/Wind_of_Change_%28Scorpions_song%29</item>
-        <item>https://en.wikipedia.org/wiki/We_Are_Young</item>
-    </string-array>
 
-    <string-array name="artistWikiArray" formatted="false">
-        <item>https://en.wikipedia.org/wiki/Pink_Floyd</item>
-        <item>https://en.wikipedia.org/wiki/Martin_Garrix</item>
-        <item>https://en.wikipedia.org/wiki/Metallica</item>
-        <item>https://en.wikipedia.org/wiki/Sultan_Khan_%28musician%29</item>
-        <item>https://en.wikipedia.org/wiki/Madeon</item>
-        <item>https://en.wikipedia.org/wiki/U2</item>
-        <item>https://en.wikipedia.org/wiki/Scorpions_%28band%29</item>
-        <item>https://en.wikipedia.org/wiki/Fun_%28band%29</item>
+    <string-array name="dealerArray" formatted="false">
+        <item>audi</item>
+        <item>tesla</item>
+        <item>audi</item>
+        <item>bmw</item>
+        <item>ford</item>
+        <item>honda</item>
+        <item>honda</item>
+        <item>toyota</item>
+        <item>merc</item>
     </string-array>
 
 </resources>
