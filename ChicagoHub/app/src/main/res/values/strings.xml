@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ChicagoHub</string>
+    <string-array name="Restaurants">
+        <item>Giordano\'s Pizza\n223 W Jackson Blvd, Chicago, IL 60606</item>
+        <item>Au Cheval\n800 W Randolph St, Chicago, IL 60607</item>
+        <item>Naf Naf Grill\n309 W Washington St, Chicago, IL 60606</item>
+        <item>Lou Malnati\'s\n439 N Wells St, Chicago, IL 60654</item>
+        <item>Al\'s Beef \n234 S Wabash Ave, Chicago, IL 60604</item>
+        <item>Yolk\n355 E Ohio St, Chicago, IL 60611</item>
+    </string-array>
+
+    <array name="RestaurantsImages">
+        <item>@drawable/giordano</item>
+        <item>@drawable/au</item>
+        <item>@drawable/nafnaf</item>
+        <item>@drawable/lou</item>
+        <item>@drawable/bigal </item>
+        <item>@drawable/yolk</item>
+    </array>
+
+    <string-array name="Hotels">
+        <item>Hilton Hotel\n720 S Michigan Ave, Chicago, IL 60605</item>
+        <item>The Congress Plaza\n520 S Michigan Ave, Chicago, IL 60605</item>
+        <item>Trump International\n401 N Wabash Ave, Chicago, IL 60611</item>
+        <item>Hyatt Regency\n151 E Upper Wacker Dr, Chicago, IL 60601</item>
+        <item>Sheraton Grand\n301 E North Water St, Chicago, IL 60611</item>
+        <item>Four Seasons Hotel\n120 E Delaware Pl, Chicago, IL 60611</item>
+    </string-array>
+
+    <string-array name="HotelsAdd">
+        <item>720 S Michigan Ave, Chicago, IL 60605</item>
+        <item>520 S Michigan Ave, Chicago, IL 60605</item>
+        <item>401 N Wabash Ave, Chicago, IL 60611</item>
+        <item>151 E Upper Wacker Dr, Chicago, IL 60601</item>
+        <item>301 E North Water St, Chicago, IL 60611</item>
+        <item>120 E Delaware Pl, Chicago, IL 60611</item>
+    </string-array>
+
+
+    <array name="HotelsImages">
+        <item>@drawable/hilton</item>
+        <item>@drawable/congress</item>
+        <item>@drawable/trump01</item>
+        <item>@drawable/hyatt</item>
+        <item>@drawable/sheraton </item>
+        <item>@drawable/fourseasons</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
