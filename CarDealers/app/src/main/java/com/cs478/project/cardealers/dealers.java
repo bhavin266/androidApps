@@ -13,7 +13,7 @@ public class dealers extends AppCompatActivity {
         setContentView(R.layout.activity_dealers);
         dealersListView=(ListView) findViewById(R.id.listView);
         String[] dealers = getResources().getStringArray((int)getIntent().getExtras().get("id"));
-        ArrayAdapter<String> adapter=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,dealers);
+        ArrayAdapter<String> adapter=new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,dealers);
         dealersListView.setAdapter(adapter);
     }
 }
