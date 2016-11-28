@@ -1,6 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Clip 1 : Classical Allegro by Duet"
+            android:id="@+id/clip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Clip 2 :  Panda by Astro"
+            android:id="@+id/clip2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Clip 3 : Feud by Band of Horses"
+            android:id="@+id/clip3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Clip 4 : Choc-ice dance by HardTON"
+            android:id="@+id/clip4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Clip 5 : Tequila by John Wesley"
+            android:id="@+id/clip5" />
+
+        <TextView
+            android:id="@+id/clipNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Clip Number"
+            android:singleLine="true"
+            android:hint="Choose Clip Number"
+            android:layout_marginTop="50dp" />
+
+        <NumberPicker
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:id="@+id/numberPicker"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            style="@android:style/Theme.Holo"
+            android:outlineProvider="background"
+            android:scrollIndicators="top|bottom"
+            android:showDividers="middle|beginning|end"
+            android:orientation="vertical" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Pause"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/resume"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Resume"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/audioRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Records" />
+
 
 </LinearLayout>
