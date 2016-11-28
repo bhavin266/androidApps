@@ -1,13 +1,9 @@
 // PlayBack.aidl
-package com.cs478.project.audioserver;
+package com.cs478.project.service;
 
 // Declare any non-default types here with import statements
 
 interface PlayBack {
-    /**
-     * Demonstrates some basic types that you can use as parameters
-     * and return values in AIDL.
-     */
      void playMusic(String str);
        void pauseMusic();
        void resumeMusic();
